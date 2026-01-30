@@ -32,5 +32,5 @@ variable "instances_per_subnet" {
 variable "instance_type" {
   description = "Instance type for all instances."
   type        = string
-  default     = "Standard_B1s"
+  default     = "Standard_B2s_v2"
 }
